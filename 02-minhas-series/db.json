@@ -1,0 +1,22 @@
+{
+  "series": {
+    "1": {
+      "name": "La casa de papel",
+      "status": "WATCHED",
+      "genre_id": 1,
+      "comments": "",
+      "poster": "//image.tmdb.org/t/p/original/yVUAfbrP5HDJugXraB7KQS0yz6Z.jpg",
+      "background": "//image.tmdb.org/t/p/original/piuRhGiQBYWgW668eSNJ2ug5uAO.jpg"
+    }
+  },
+  "genres": {
+    "1655476774835": {
+      "name": "Suspense"
+    },
+    "1655494100047": {
+      "name": "Terror"
+    },
+    "1655495974026": {}
+  },
+  "count": 0
+}
