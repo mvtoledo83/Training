@@ -2,19 +2,20 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Navigate } from 'react-router-dom';
 
-const EditarGenero = () => {
+const EditarGenero = (props) => {
     const [name, setName] = useState('')
     const [success, setSuccess] = useState(false)
 
     useEffect(() => {
         axios
-            .get('/api/genres/')
+            .get('/api/genres/1655476774835')
             .then(res => {
                 setName(res.data.name)
-                console.log(res)
             })
-            
+
     }, [])
+
+    console.log('Propriedades:'+ props)
 
     const onChange = evt => {
         setName(evt.target.value)
